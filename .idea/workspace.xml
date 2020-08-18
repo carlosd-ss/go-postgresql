@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1c92bac7-0972-419d-97fc-d447a26ec4cd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/gorila-mux/handler/handlers.go" beforeDir="false" afterPath="$PROJECT_DIR$/gorila-mux/handler/handlers.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gorila-mux/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/gorila-mux/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gorila-mux/repo/repo.go" beforeDir="false" afterPath="$PROJECT_DIR$/gorila-mux/repo/repo.go" afterDir="false" />
@@ -36,10 +34,19 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="go" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Go Build.go build main.go (1)">
+    <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-postgres" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/net-http/main.go" />
+      <package value="github.com/carlosd-ss/go-postgresql" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-postgres" />
       <working_directory value="$PROJECT_DIR$" />
@@ -51,6 +58,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build main.go (1)" />
         <item itemvalue="Go Build.go build main.go" />
       </list>
     </recent_temporary>

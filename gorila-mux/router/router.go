@@ -1,7 +1,7 @@
 package router
 
 import (
-	"github.com/carlosd-ss/go-postgresql/go-postgres/gorila-mux/handler"
+	"github.com/carlosd-ss/go-postgresql/gorila-mux/handler"
 	"github.com/gorilla/mux"
 )
 
