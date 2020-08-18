@@ -4,8 +4,8 @@ import (
 	"database/sql"
 	"fmt"
 
-	"github.com/carlosd-ss/go-postgresql/net-http/models"
-	"github.com/carlosd-ss/go-postgresql/net-http/pkg"
+	"github.com/carlosd-ss/go-postgresql/go-postgres/net-http/models"
+	"github.com/carlosd-ss/go-postgresql/go-postgres/net-http/pkg"
 
 	"log"
 )

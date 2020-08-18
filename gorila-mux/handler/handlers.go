@@ -3,8 +3,8 @@ package handler
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/carlosd-ss/go-postgresql/gorila-mux/models"
-	"github.com/carlosd-ss/go-postgresql/gorila-mux/repo"
+	"github.com/carlosd-ss/go-postgresql/go-postgres/gorila-mux/models"
+	"github.com/carlosd-ss/go-postgresql/go-postgres/gorila-mux/repo"
 	"github.com/gorilla/mux"
 
 	_ "github.com/lib/pq"
@@ -132,7 +132,7 @@ func DeleteUser(w http.ResponseWriter, r *http.Request) {
 		log.Fatalf("Unable to convert the string into int.  %v", err)
 	}
 
-	deletedRows, _ := repo.DeleteUser(int64(id))
+	deletedRows := repo.DeleteUser(int64(id))
 
 	msg := fmt.Sprintf("User updated successfully. Total rows/record affected %v", deletedRows)
 

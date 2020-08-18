@@ -3,9 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="1c92bac7-0972-419d-97fc-d447a26ec4cd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/gorila-mux/handler/handlers.go" beforeDir="false" afterPath="$PROJECT_DIR$/gorila-mux/handler/handlers.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gorila-mux/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/gorila-mux/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gorila-mux/repo/repo.go" beforeDir="false" afterPath="$PROJECT_DIR$/gorila-mux/repo/repo.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gorila-mux/router/router.go" beforeDir="false" afterPath="$PROJECT_DIR$/gorila-mux/router/router.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/net-http/handler/handlers.go" beforeDir="false" afterPath="$PROJECT_DIR$/net-http/handler/handlers.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/net-http/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/net-http/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/net-http/repo/repo.go" beforeDir="false" afterPath="$PROJECT_DIR$/net-http/repo/repo.go" afterDir="false" />
@@ -36,6 +39,22 @@
     <property name="last_opened_file_path" value="$USER_HOME$" />
     <property name="settings.editor.selected.configurable" value="go" />
   </component>
+  <component name="RunManager">
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-postgres" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/gorila-mux/main.go" />
+      <package value="github.com/carlosd-ss/go-postgresql" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build main.go" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
@@ -48,5 +67,21 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="751" y="348" width="408" height="321" key="#Go_Modules/0.0.1920.1080@0.0.1920.1080" timestamp="1597790651805" />
+    <state width="1874" height="296" key="GridCell.Tab.0.bottom" timestamp="1597792077781">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="296" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1597792077781" />
+    <state width="1874" height="296" key="GridCell.Tab.0.center" timestamp="1597792077779">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="296" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1597792077779" />
+    <state width="1874" height="296" key="GridCell.Tab.0.left" timestamp="1597792077777">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="296" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1597792077777" />
+    <state width="1874" height="296" key="GridCell.Tab.0.right" timestamp="1597792077780">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="296" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1597792077780" />
   </component>
 </project>

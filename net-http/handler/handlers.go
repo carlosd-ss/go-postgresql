@@ -3,8 +3,8 @@ package handler
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/carlosd-ss/go-postgresql/net-http/models"
-	"github.com/carlosd-ss/go-postgresql/net-http/repo"
+	"github.com/carlosd-ss/go-postgresql/go-postgres/net-http/models"
+	"github.com/carlosd-ss/go-postgresql/go-postgres/net-http/repo"
 	_ "github.com/lib/pq"
 	"log"
 	"net/http"
