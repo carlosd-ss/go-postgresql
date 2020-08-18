@@ -1,4 +1,4 @@
-<img src="https://github.com/carlosd-ss/go-postgres/blob/master/.github/gopostgres.svg"  height="250"> 
+<img src="https://github.com/carlosd-ss/go-postgresql/blob/master/.github/gopostgres.svg"  height="250"> 
 
 #  :large_blue_circle: Go postgres examples
 
