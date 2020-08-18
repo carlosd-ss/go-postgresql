@@ -1,0 +1,8 @@
+github.com/carlosd-ss/go-postgres v0.0.0-20200818223251-9a41417fc366 h1:Wo/of4GCl/qtuXd9zg21i1+LHSB6G4v8tb3U4Be1jVU=
+github.com/carlosd-ss/go-postgres v0.0.0-20200818223251-9a41417fc366/go.mod h1:qWBtTFK4MNko/DmSO6ckgSvgFomKc9eayz8xxNGWhXI=
+github.com/gorilla/mux v1.7.4 h1:VuZ8uybHlWmqV03+zRzdwKL4tUnIp1MAQtp1mIFE1bc=
+github.com/gorilla/mux v1.7.4/go.mod h1:DVbg23sWSpFRCP0SfiEN6jmj59UnW/n46BH5rLB71So=
+github.com/joho/godotenv v1.3.0 h1:Zjp+RcGpHhGlrMbJzXTrZZPrWj+1vfm90La1wgB6Bhc=
+github.com/joho/godotenv v1.3.0/go.mod h1:7hK45KPybAkOC6peb+G5yklZfMxEjkZhHbwpqxOKXbg=
+github.com/lib/pq v1.8.0 h1:9xohqzkUwzR4Ga4ivdTcawVS89YSDVxXMa3xJX3cGzg=
+github.com/lib/pq v1.8.0/go.mod h1:AlVN5x4E4T544tWzH6hKfbfQvm3HdbOxrmggDNAPY9o=

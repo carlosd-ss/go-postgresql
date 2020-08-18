@@ -3,7 +3,7 @@ package repo
 import (
 	"database/sql"
 	"fmt"
-	"github.com/carlosd-ss/go-postgres/gorila-mux/models"
+	"github.com/carlosd-ss/go-postgresql/gorila-mux/models"
 	"github.com/joho/godotenv"
 	"log"
 	"os"

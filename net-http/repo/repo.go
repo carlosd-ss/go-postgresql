@@ -3,9 +3,9 @@ package repo
 import (
 	"database/sql"
 	"fmt"
-	"github.com/carlosdss22/testing/models"
 
-	"github.com/carlosdss22/testing/pkg"
+	"github.com/carlosd-ss/go-postgresql/net-http/models"
+	"github.com/carlosd-ss/go-postgresql/net-http/pkg"
 
 	"log"
 )

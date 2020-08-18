@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/carlosdss22/testing/handler"
+	"github.com/carlosd-ss/go-postgresql/net-http/handler"
 )
 
 func main() {

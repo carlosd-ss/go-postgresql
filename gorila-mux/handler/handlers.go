@@ -3,8 +3,8 @@ package handler
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/carlosd-ss/go-postgres/gorila-mux/models"
-	"github.com/carlosd-ss/go-postgres/gorila-mux/repo"
+	"github.com/carlosd-ss/go-postgresql/gorila-mux/models"
+	"github.com/carlosd-ss/go-postgresql/gorila-mux/repo"
 	"github.com/gorilla/mux"
 
 	_ "github.com/lib/pq"

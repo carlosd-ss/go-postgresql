@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c92bac7-0972-419d-97fc-d447a26ec4cd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/gorila-mux/go.mod" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gorila-mux/go.sum" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net-http/go.mod" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gorila-mux/handler/handlers.go" beforeDir="false" afterPath="$PROJECT_DIR$/gorila-mux/handler/handlers.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gorila-mux/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/gorila-mux/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gorila-mux/repo/repo.go" beforeDir="false" afterPath="$PROJECT_DIR$/gorila-mux/repo/repo.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/net-http/handler/handlers.go" beforeDir="false" afterPath="$PROJECT_DIR$/net-http/handler/handlers.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/net-http/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/net-http/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/net-http/repo/repo.go" beforeDir="false" afterPath="$PROJECT_DIR$/net-http/repo/repo.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
