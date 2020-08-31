@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1c92bac7-0972-419d-97fc-d447a26ec4cd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gorila-mux/handler/handlers.go" beforeDir="false" afterPath="$PROJECT_DIR$/gorila-mux/handler/handlers.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gorila-mux/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/gorila-mux/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gorila-mux/repo/repo.go" beforeDir="false" afterPath="$PROJECT_DIR$/gorila-mux/repo/repo.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gorila-mux/router/router.go" beforeDir="false" afterPath="$PROJECT_DIR$/gorila-mux/router/router.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/net-http/handler/handlers.go" beforeDir="false" afterPath="$PROJECT_DIR$/net-http/handler/handlers.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/net-http/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/net-http/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/net-http/repo/repo.go" beforeDir="false" afterPath="$PROJECT_DIR$/net-http/repo/repo.go" afterDir="false" />
-    </list>
+    <list default="true" id="1c92bac7-0972-419d-97fc-d447a26ec4cd" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -75,21 +66,21 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="751" y="348" width="408" height="321" key="#Go_Modules/0.0.1920.1080@0.0.1920.1080" timestamp="1597790651805" />
-    <state width="1874" height="296" key="GridCell.Tab.0.bottom" timestamp="1597792077781">
+    <state width="1874" height="296" key="GridCell.Tab.0.bottom" timestamp="1597793462451">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="296" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1597792077781" />
-    <state width="1874" height="296" key="GridCell.Tab.0.center" timestamp="1597792077779">
+    <state width="1874" height="296" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1597793462451" />
+    <state width="1874" height="296" key="GridCell.Tab.0.center" timestamp="1597793462448">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="296" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1597792077779" />
-    <state width="1874" height="296" key="GridCell.Tab.0.left" timestamp="1597792077777">
+    <state width="1874" height="296" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1597793462448" />
+    <state width="1874" height="296" key="GridCell.Tab.0.left" timestamp="1597793462446">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="296" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1597792077777" />
-    <state width="1874" height="296" key="GridCell.Tab.0.right" timestamp="1597792077780">
+    <state width="1874" height="296" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1597793462446" />
+    <state width="1874" height="296" key="GridCell.Tab.0.right" timestamp="1597793462450">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="296" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1597792077780" />
+    <state width="1874" height="296" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1597793462450" />
   </component>
 </project>

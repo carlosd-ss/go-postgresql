@@ -2,10 +2,11 @@ package main
 
 import (
 	"fmt"
-	"github.com/carlosd-ss/go-postgresql/gorila-mux/router"
 	"log"
 	"net/http"
 	"os"
+
+	"github.com/carlosd-ss/go-postgresql/gorila-mux/router"
 )
 
 func main() {
