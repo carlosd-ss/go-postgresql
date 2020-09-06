@@ -3,9 +3,10 @@ package pkg
 import (
 	"database/sql"
 	"fmt"
-	"github.com/joho/godotenv"
 	"log"
 	"os"
+
+	"github.com/joho/godotenv"
 )
 
 func CreateConnection() *sql.DB {
@@ -13,14 +14,16 @@ func CreateConnection() *sql.DB {
 	err := godotenv.Load("db.env")
 
 	if err != nil {
-		log.Fatalf("Error loading .env file")
+		log.Printf("\n%v", err)
+		return nil
 	}
 
 	// Open the connection
 	db, err := sql.Open("postgres", os.Getenv("POSTGRES_URL"))
 
 	if err != nil {
-		panic(err)
+		log.Printf("\n%v", err)
+		return nil
 	}
 
 	// check the connection
