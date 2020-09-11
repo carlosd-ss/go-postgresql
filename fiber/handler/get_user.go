@@ -8,15 +8,14 @@ import (
 	"github.com/gofiber/fiber"
 )
 
-func Getuser(c *fiber.Ctx) {
-
+func (s *Server) Getuser(c *fiber.Ctx) {
 	params := c.Params("id")
 	id, err := strconv.Atoi(params)
 
 	if err != nil {
 		c.Status(400).JSON(err)
 	}
-	Row, err := repo.GetUser(int64(id))
+	Row, err := repo.GetUser(s.Db, int64(id))
 	if err != nil {
 		c.Status(400).JSON(err)
 

@@ -1,16 +1,12 @@
 package repo
 
 import (
+	"database/sql"
+
 	"github.com/carlosd-ss/go-postgresql/fiber/models/user"
-	"github.com/carlosd-ss/go-postgresql/fiber/pkg"
 )
 
-func GetUser(id int64) (user.User, error) {
-
-	db := pkg.CreateConnection()
-
-	defer db.Close()
-
+func GetUser(db *sql.DB, id int64) (user.User, error) {
 	var user user.User
 
 	sqlStatement := `SELECT * FROM users WHERE userid=$1`

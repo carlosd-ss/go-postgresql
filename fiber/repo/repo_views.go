@@ -1,17 +1,12 @@
 package repo
 
 import (
-	"log"
+	"database/sql"
 
 	"github.com/carlosd-ss/go-postgresql/fiber/models/user"
-	"github.com/carlosd-ss/go-postgresql/fiber/pkg"
 )
 
-func GetAllUsers() ([]user.User, error) {
-
-	db := pkg.CreateConnection()
-
-	defer db.Close()
+func GetAllUsers(db *sql.DB) ([]user.User, error) {
 
 	var users []user.User
 
@@ -20,7 +15,7 @@ func GetAllUsers() ([]user.User, error) {
 	rows, err := db.Query(sqlStatement)
 
 	if err != nil {
-		log.Fatalf("Unable to execute the query. %v", err)
+		return nil, err
 	}
 
 	defer rows.Close()
@@ -31,7 +26,7 @@ func GetAllUsers() ([]user.User, error) {
 		err = rows.Scan(&user.ID, &user.Name, &user.Age, &user.Location)
 
 		if err != nil {
-			log.Fatalf("Unable to scan the row. %v", err)
+			return nil, err
 		}
 
 		users = append(users, user)

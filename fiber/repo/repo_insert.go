@@ -1,16 +1,12 @@
 package repo
 
 import (
+	"database/sql"
+
 	"github.com/carlosd-ss/go-postgresql/fiber/models/user"
-	"github.com/carlosd-ss/go-postgresql/fiber/pkg"
 )
 
-func InsertUser(user user.User) (int64, error) {
-
-	db := pkg.CreateConnection()
-
-	defer db.Close()
-
+func InsertUser(db *sql.DB, user user.User) (int64, error) {
 	sqlStatement := `INSERT INTO users (name, location, age) VALUES ($1, $2, $3) RETURNING userid`
 
 	var id int64

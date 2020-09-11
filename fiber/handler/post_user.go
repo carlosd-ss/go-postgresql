@@ -7,7 +7,7 @@ import (
 	"github.com/gofiber/fiber"
 )
 
-func Newuser(c *fiber.Ctx) {
+func (s *Server) Newuser(c *fiber.Ctx) {
 	var p user.User
 	var msgE merrors.Errors
 
@@ -21,7 +21,7 @@ func Newuser(c *fiber.Ctx) {
 		return
 	}
 
-	id, err := repo.InsertUser(p)
+	id, err := repo.InsertUser(s.Db, p)
 	if err != nil {
 		c.Status(400).JSON(err)
 	}

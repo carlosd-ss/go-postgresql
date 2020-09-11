@@ -5,9 +5,9 @@ import (
 	"github.com/gofiber/fiber"
 )
 
-func SetupRoutes(app *fiber.App) {
-	app.Delete("/api/v1/user/:id", handler.Deleteuser)
-	app.Get("/api/v1/user/:id", handler.Getuser)
-	app.Get("/api/v1/user", handler.Getusers)
-	app.Post("/api/v1/user", handler.Newuser)
+func SetupRoutes(s *handler.Server, app *fiber.App) {
+	app.Delete("/api/v1/user/:id", s.Deleteuser)
+	app.Get("/api/v1/user/:id", s.Getuser)
+	app.Get("/api/v1/user", s.Getusers)
+	app.Post("/api/v1/user", s.Newuser)
 }

@@ -6,8 +6,8 @@ import (
 	_ "github.com/lib/pq"
 )
 
-func Getusers(c *fiber.Ctx) {
-	users, err := repo.GetAllUsers()
+func (s *Server) Getusers(c *fiber.Ctx) {
+	users, err := repo.GetAllUsers(s.Db)
 
 	if err != nil {
 		c.Status(400).JSON(err)
