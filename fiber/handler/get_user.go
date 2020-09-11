@@ -2,7 +2,6 @@ package handler
 
 import (
 	"fmt"
-	"log"
 	"strconv"
 
 	"github.com/carlosd-ss/go-postgresql/fiber/repo"
@@ -15,11 +14,11 @@ func Getuser(c *fiber.Ctx) {
 	id, err := strconv.Atoi(params)
 
 	if err != nil {
-		log.Fatalf("Unable to convert the string into int.  %v", err)
+		c.Status(400).JSON(err)
 	}
 	Row, err := repo.GetUser(int64(id))
 	if err != nil {
-		log.Fatalf("Unable to view.  %v", err)
+		c.Status(400).JSON(err)
 
 	}
 

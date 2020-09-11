@@ -1,8 +1,6 @@
 package handler
 
 import (
-	"log"
-
 	"github.com/carlosd-ss/go-postgresql/fiber/models/merrors"
 	"github.com/carlosd-ss/go-postgresql/fiber/models/user"
 	"github.com/carlosd-ss/go-postgresql/fiber/repo"
@@ -25,8 +23,7 @@ func Newuser(c *fiber.Ctx) {
 
 	id, err := repo.InsertUser(p)
 	if err != nil {
-
-		log.Fatalf("Unable to delete.  %v", err)
+		c.Status(400).JSON(err)
 	}
 	c.Status(200).JSON(id)
 }

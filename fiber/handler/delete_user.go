@@ -1,6 +1,7 @@
 package handler
 
 import (
+	"database/sql"
 	"fmt"
 	"log"
 	"strconv"
@@ -8,6 +9,11 @@ import (
 	"github.com/carlosd-ss/go-postgresql/fiber/repo"
 	"github.com/gofiber/fiber"
 )
+
+type Server struct {
+	app *fiber.App
+	db  *sql.DB
+}
 
 func Deleteuser(c *fiber.Ctx) {
 	params := c.Params("id")
@@ -18,7 +24,7 @@ func Deleteuser(c *fiber.Ctx) {
 	}
 	deletedRows, err := repo.DeleteUser(int64(id))
 	if err != nil {
-		log.Fatalf("Unable to delete.  %v", err)
+		c.Status(400).JSON(err)
 
 	}
 
