@@ -1,4 +1,4 @@
-<img src="https://github.com/carlosd-ss/go-postgresql/blob/master/.github/gopostgresql.svg"  height="150"> 
+<img src="https://github.com/carlosd-ss/go-postgresql/blob/master/.github/gopostgresql.svg"  height="200"> 
 
 
 ![GO](https://img.shields.io/badge/GO-%2300ADD8?style=for-the-badge&logo=Go&labelColor=%23444444)
