@@ -23,7 +23,3 @@
  
  RUN main.go
 ```
-
-## Related projects
-
-[🟢  Go-Mongo](https://github.com/carlosd-ss/go-mongo)
